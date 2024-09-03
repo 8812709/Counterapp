@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div id="wrapper" class="w-[100vw] h-[100vh] overflow-hidden bg-slate-500 flex justify-center items-center">
+        <div class="flex flex-col bg-slate-400 rounded-md p-4">
+            <h1 class="font-bold text-[2rem]">Increament and Decreament</h1>
+            <div class="flex justify-evenly">
+                <button onclick="increament()" class="text-[3rem]">
+                    <b>+</b>
+                </button>
+                <div id="basevalue" class="text-[3rem] align-baseline">
+                    <b>0</b>
+                </div>
+                <button onclick="decreament()" class="text-[3rem]">
+                    <b>-</b>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
